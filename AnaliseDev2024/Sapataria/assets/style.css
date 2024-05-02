@@ -1,0 +1,62 @@
+@import url(https://db.onlinewebfonts.com/c/ce953f6e2e71e5dd538b50ff7a841c7e?family=Arial+Nova);
+/* Import da Fonte: Arial Nova, fonte: https://www.onlinewebfonts.com/download/ce953f6e2e71e5dd538b50ff7a841c7e*/
+
+body {
+  margin: 0;
+  font-family: "Arial Nova";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55vw;
+  width: 45vw;
+  height: 100vh;
+  background-color: #bdbfbe;
+}
+
+.login-grid {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 30px 30px;
+}
+
+.login-title > h1 {
+  font-family: "Arial Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  color: black;
+}
+
+.textfield {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #8a92bf;
+  color: #bdbfbe;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px rgb(86, 86, 86);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > label {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
